@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="541.387" height="362.338" viewBox="0 0 541.387 362.338">
+  <defs>
+    <filter id="Path_2" x="0" y="0" width="541.387" height="362.338" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="4.5" result="blur"/>
+      <feFlood flood-color="#264539" flood-opacity="0.678"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Path_1" x="1.151" y="10.159" width="491.23" height="314.345" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood flood-color="#1f0e0e" flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="what_i_can_do_title_blob" data-name="what i can do title blob" transform="translate(467.132 283.007) rotate(166)">
+    <g transform="matrix(-0.97, -0.24, 0.24, -0.97, 384.79, 387.61)" filter="url(#Path_2)">
+      <path id="Path_2-2" data-name="Path 2" d="M-8.774,67.733c-42.4,50.827-2.928,85.2,14.753,126.957s76.721,69.8,155.167,75.045,232.678-5.715,232.678-5.715,79.6-49.872,41.53-97.358S313.172,106.151,223.478,82.289,33.622,16.906-8.774,67.733Z" transform="translate(511.53 280.31) rotate(166)" fill="rgba(16,225,145,0.46)"/>
+    </g>
+    <g transform="matrix(-0.97, -0.24, 0.24, -0.97, 384.79, 387.61)" filter="url(#Path_1)">
+      <path id="Path_1-2" data-name="Path 1" d="M80.263-46.239c54.776-30.617,157.228.232,252.758,42.863s120.186,3.09,141.7,35.329-19.316,58.5-75.206,91.439-206.663,1.921-291.029-32.3S25.487-15.622,80.263-46.239Z" transform="translate(509.67 139.4) rotate(166)" fill="rgba(225,16,96,0.92)"/>
+    </g>
+    <text id="What_I_can_do_" data-name="What I can do!" transform="translate(169.894 162.429) rotate(-166)" fill="#fff" font-size="42" font-family="Georgia"><tspan x="-136.777" y="0">What I can do!</tspan></text>
+  </g>
+</svg>

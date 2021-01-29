@@ -1,0 +1,41 @@
+
+.skill-header{
+    font-size: 2.20em;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: bold;
+    color: black;
+}
+.skill-body{
+    padding-left: 2%;
+    font-size: 2.20em;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: bold;
+    color: gray;
+}
+#skill-cards-container{
+    padding: 0% 10% 10% 10%;
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+
+
+.skill-desc-header{
+    font-size: 4em;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: bold;
+    color: black;
+}
+
+.skill-desc-body{
+
+    font-size: 2em;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: bold;
+    color: black;
+}
+
+#skill-desc{
+    border-left: black solid;
+}
+
+

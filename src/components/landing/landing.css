@@ -1,0 +1,53 @@
+.landing-container{
+    margin-top: 2em;
+}
+
+
+
+.hello-splash{
+    text-align: left;
+
+}
+.hello-text > p{
+    font-size: 2.20em;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: bold;
+    color: black;
+
+}
+
+#landing-text{
+    padding-top: 2em;
+    margin: 5% 20% 0% 20%;
+
+}
+
+.squiggly-line{
+    padding-top: 10%;
+}
+
+
+#my-name{
+    font-size: 1em;
+    color: #E11060;
+    font-weight: bold;
+}
+
+
+.my-highlight{
+    color: #6BD1AA;
+    font-weight: bold;
+    font-size: 1em;
+
+}
+
+
+
+@media only screen and (max-width: 768px) {
+    #landing-text{
+        margin: 5% 0% 0% 0% !important;
+    }
+} 
+
+
+

@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="358.343" height="300.501" viewBox="0 0 358.343 300.501">
+  <defs>
+    <filter id="Path_2" x="0" y="15.567" width="354.631" height="284.934" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="4.5" result="blur"/>
+      <feFlood flood-color="#264539" flood-opacity="0.678"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Path_1" x="43.65" y="0" width="314.693" height="271.066" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood flood-color="#1f0e0e" flood-opacity="0.306"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="title" transform="translate(3.764 -33.499)">
+    <g id="Group_1" data-name="Group 1" transform="translate(9.736 39.499)">
+      <g transform="matrix(1, 0, 0, 1, -13.5, -6)" filter="url(#Path_2)">
+        <path id="Path_2-2" data-name="Path 2" d="M46.479,92.766C13.435,140.646-17.758,163.555,1.8,217.73s61.764,86.79,122.908,91.735,158.254-64.74,158.254-64.74S345,197.743,315.33,153.01,234.18,88.27,164.27,65.791,79.524,44.885,46.479,92.766Z" transform="translate(17.76 -25.72)" fill="rgba(16,225,145,0.46)"/>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, -13.5, -6)" filter="url(#Path_1)">
+        <path id="Path_1-2" data-name="Path 1" d="M33.907,64.084C61.053,39.907,104.844,3.653,140.768-24.834c38.652-30.65,91.715-24.278,118.69,0S290.03-.556,299.022,30.015s6.623,81.525-29.533,125.784-68.3,46.282-115.094,51.253S88.617,179.5,55.347,169.386-23,114.771,33.907,64.084Z" transform="translate(45.9 51.5)" fill="rgba(225,16,96,0.92)"/>
+      </g>
+    </g>
+    <text id="Hey_I_m_Mark_" data-name="Hey, 
+I’m Mark!" transform="translate(110 159)" fill="#fff" font-size="43" font-family="Georgia"><tspan x="0" y="0">Hey, </tspan><tspan x="0" y="48">I’m Mark!</tspan></text>
+  </g>
+</svg>

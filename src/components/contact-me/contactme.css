@@ -1,0 +1,40 @@
+
+
+.contact-form{
+    margin: 0% 20% 0% 20%;
+    padding: 2% 2% 2% 2%;
+}
+
+.contact-me-text{
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+.submit-btn{
+    margin: 3% 0% 3% 0%;
+    background-color: #e11060;
+    border: none;
+}
+
+.submit-btn-text{
+
+    font-size:1.5em !important;
+    color: white;
+    margin: 1em 1em 1em 1em;
+}
+
+.submit-btn:hover{
+    background-color: #10E191;
+}
+
+.submit-btn:hover .submit-btn-text{
+    color: blue;
+}
+
+.form-text{
+    font-size:1.5em;
+    font-family: 'Rockwell';
+    font-weight: lighter;
+}
+
+

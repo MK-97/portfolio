@@ -1,0 +1,80 @@
+
+@media only screen and (max-width:407px){
+
+    .skill-card-title{
+        font-size: 1.5em !important;
+
+    }
+
+    .skill-card-description{
+        padding: 0 10% 0 10% !important;
+
+    }
+}
+
+@media only screen and (max-width:789px){
+
+    .custom-card{
+        height: 95% !important;
+    }
+
+
+ 
+
+}
+
+@media only screen and (max-width: 1411px){
+
+    #skill-cards-container{
+        padding: 10% 5% 10% 5% !important;
+        margin-top: 10% !important;
+        margin-bottom: 10% !important;
+    }
+
+}
+
+#skill-cards-container{
+    padding: 0% 10% 10% 10%;
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+
+.skill-card-description{
+    font-size: 1.5em;
+    text-align: center;
+    padding: 0 30% 0 30%;
+
+}
+
+.skill-card-title{
+    font-family: 'Rockwell';
+    font-size: 2em;
+    text-align: center;
+    color: #e11060;
+
+}
+
+
+
+.skill-card-skill-header{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 2em;
+    text-align: center;
+    color: #10e191;
+
+}
+.skill-card-skill-text{
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+    font-size: 2em;
+    text-align: center;
+}
+
+.custom-card{
+    border-color: #10E191;
+    box-shadow: -3px 3px 10px rgba(16, 225, 145, 0.45), 3px -3px 10px rgba(225, 16, 96, 0.45);
+    height: 100%;
+}
+

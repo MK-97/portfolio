@@ -1,0 +1,54 @@
+.exp-card-header{
+    font-size:1.5em;
+    font-weight: bold;
+    display:block;
+}
+
+#experience-cards-container{
+    margin-bottom: 20% !important;
+
+}
+
+.exp-card{
+    margin:0% 5% 0% 5%;
+    display: inline-flex;
+    flex-direction: row;
+    padding: 3% 3% 3% 3%;
+
+}
+
+.exp-card-img{
+    display:inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 2%;
+    width: 30%;
+}
+
+.exp-card-body{
+    padding-left: 2%;
+    width:70%;
+    border-left:black solid;
+}
+
+.exp-card-desc{
+    word-wrap: break-word;
+    display:block;
+    font-size: 1.5em;
+}
+
+@media only screen and (max-width: 900px){
+    .exp-card{
+        flex-direction: column;
+    }
+    .exp-card-img{
+        display: block;
+        width: 80%;
+    }
+    .exp-card-body{
+        display: block;
+        width: 100%;
+    }
+
+}
+

@@ -1,0 +1,62 @@
+.landing-container{
+    margin-top: 2em;
+}
+
+
+.landing-child{
+    flex:1;
+}
+
+.hello-splash{
+    text-align: left;
+
+}
+.hello-text > p{
+    font-size: 2.20em;
+}
+
+
+#landing-text{
+    padding-top: 2em;
+    background-color: #f3eff0;
+    margin: 5% 20% 0% 20%;
+
+}
+
+.squiggly-line{
+    padding-top: 10%;
+}
+
+
+#my-name{
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, 'Cantarell', 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 6em;
+    font-weight: bold;
+    color: #E11060;
+}
+
+
+.my-highlight{
+    color: #6BD1AA;
+    font-size: 1.5em;
+    font-weight: bold;
+
+}
+
+
+
+@media only screen and (max-width: 768px) {
+    .landing-text{
+        text-align:center;
+    }
+} 
+
+
+
+
+@media only screen and (max-width: 400px) {
+    #my-name{
+        font-size: 5em !important;
+    }
+
+}
