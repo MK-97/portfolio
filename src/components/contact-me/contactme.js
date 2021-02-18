@@ -94,7 +94,7 @@ class ContactMe extends Component {
             <Container fluid id = "contact-me-container">
                 <Row>
                     <Col className = "text-center">
-                        <p className ="section-header ">
+                        <p className ="section-header">
                             Want to talk?
                         </p>
                     </Col>
@@ -113,7 +113,7 @@ class ContactMe extends Component {
                                             <Form.Label className = "form-text">
                                                 What's your name?
                                             </Form.Label>
-                                            <Form.Control name = "contactName" type = "text" onChange ={this.handleInputChange} value = {this.state.contactForm.contactName} placeholder ="Mark Nguyen" required/>
+                                            <Form.Control className = "form-input" name = "contactName" type = "text" onChange ={this.handleInputChange} value = {this.state.contactForm.contactName} placeholder ="Mark Nguyen" required/>
                                         </Form.Group>
                                     </Col>
                                     <Col lg ={6}>
@@ -121,7 +121,7 @@ class ContactMe extends Component {
                                             <Form.Label className = "form-text">
                                                 What's your email?
                                             </Form.Label>
-                                            <Form.Control name = "contactEmail" type = "email" onChange ={this.handleInputChange} value = {this.state.contactForm.contactEmail} placeholder ="mkqnn97@gmail.com" required/>
+                                            <Form.Control  className = "form-input" name = "contactEmail" type = "email" onChange ={this.handleInputChange} value = {this.state.contactForm.contactEmail} placeholder ="mkqnn97@gmail.com" required/>
                                         </Form.Group>
                                     </Col>
                                 </Row>
@@ -129,7 +129,7 @@ class ContactMe extends Component {
                                     <Form.Label className = "form-text">
                                         What would you like to say?
                                     </Form.Label>
-                                    <Form.Control name = "contactMessage" as= "textarea" onChange ={this.handleInputChange} value ={this.state.contactForm.contactMessage} placeholder ="Hi, I hope you're doing well today!" rows ={3} required/>
+                                    <Form.Control className = "form-input" name = "contactMessage" as= "textarea" onChange ={this.handleInputChange} value ={this.state.contactForm.contactMessage} placeholder ="Hi, I hope you're doing well today!" rows ={3} required/>
                                 </Form.Group>
                             </Form>
                         </Card>

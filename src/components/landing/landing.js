@@ -14,19 +14,16 @@ class Landing extends Component {
             <Container fluid>
                 <Row id = "landing-text">
                     <Col>
-                        <div className = "hello-text landing-text text-left">
+                        <div className = "hello-text landing-text text-center">
                             <p>
                                 <span id ="my-name">Mark Nguyen</span> is a <span className = "my-highlight">web developer</span> in California,
                                 <br/>
                                 and is currently working at 1st Light Energy.
                                 <br/>
                                 <br/>
-                                Admirer of tasteful product design 
-                                <br/>
                                 <MediaQuery maxDeviceWidth={1220}>
                                     <br/>
                                 </MediaQuery>
-                                Enjoyer of elegant software architecture
 
                             </p>
                         </div>

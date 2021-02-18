@@ -11,11 +11,10 @@ function ExperienceCards(props) {
             <Row>
                 <Col className = "text-center">
                     <p className = "section-header">See my Experience</p>
-
                 </Col>
             </Row>
-            <Row >
-                <div className ="exp-card ">
+            <Row className = "" >
+                <div className ="exp-card custom-card">
                     <div className = "exp-card-img">
                         <img className = "w-100 firstlight-logo" src = {logo}></img>
                     </div>
@@ -31,7 +30,7 @@ function ExperienceCards(props) {
                             emphasized playing to our strengths that also pushed where we were weak.
                         
                         </p>
-                        <a href="#">
+                        <a href="/experience/firstLightEnergy">
                             Wanna read more?
                         </a>
                     </div>

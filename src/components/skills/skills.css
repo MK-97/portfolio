@@ -14,7 +14,6 @@
 }
 #skill-cards-container{
     padding: 0% 10% 10% 10%;
-    margin-top: 5%;
     margin-bottom: 10%;
 }
 
@@ -35,6 +34,7 @@
 }
 
 #skill-desc{
+    display:none;
     border-left: black solid;
 }
 

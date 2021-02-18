@@ -8,11 +8,6 @@
     font-size: 3em;
 }
 
-.font-georgia{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-
-}
-
 #landing{
     margin-top: 4em;
     margin-bottom: 10%;
@@ -23,6 +18,8 @@
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100;200;300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin&display=swap');
+
 @media only screen and (max-width:666px){
     .contact-form{
         margin-left: 5% !important;
@@ -38,6 +35,7 @@
 }
 .section-header{
     margin-top: 5%;
+    margin-bottom: 5%;
     font-family: 'Fira Sans', sans-serif;
     font-size: 5em;
     font-weight: bold;
@@ -53,5 +51,19 @@
 
 }
 p{
-    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Libre Franklin';
+}
+
+.custom-card{
+    box-shadow: 0px 0px 50px lightgray;
+    border: none !important;
+}
+
+.body-text{
+    font-size: 2em;
+    word-wrap: break-word;
+}
+
+.font-gray{
+    color: gray;
 }

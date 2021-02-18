@@ -15,65 +15,47 @@ class Skills extends Component {
                 <Row id = "skill-cards-container">
                     <Col>
                         <Row>
-                            <p className = "skill-header">
-                                Front-end Development
-                            </p>
-                            <p className = "skill-body">
-                                JavaScript
-                                <br/>
-                                React
-                                <br/>
-                                Adobe Xd
-                                <br/>
-                                UX / UI Design
-                            </p>
+                            <Col className = "text-center">
+                            <div>
 
+                                <p className = "skill-header">
+                                    Front-end Development
+                                </p>
+                                <p className = "skill-body">
+                                    JavaScript
+                                    <br/>
+                                    React
+                                    <br/>
+                                    Adobe Xd
+                                    <br/>
+                                    UX / UI Design
+                                </p>
+
+                            </div>
+                            </Col>
                         </Row>
                         <Row>
-                            <p className = "skill-header">
-                                Back-end Development
-                            </p>
+                            <Col className = "text-center">
+                            <div>
+                                <p className = "skill-header">
+                                    Back-end Development
+                                </p>
 
-                            <p className = "skill-body">
-                                Java
-                                <br/>
-                                Spring Boot
-                                <br/>
-                                AWS Lambda
-                                <br/>
-                                Serverless
-                                <br/>
-                                API Design
-                            </p>
-
+                                <p className = "skill-body">
+                                    Java
+                                    <br/>
+                                    Spring Boot
+                                    <br/>
+                                    AWS Lambda
+                                    <br/>
+                                    Serverless
+                                    <br/>
+                                    API Design
+                                </p>
+                            </div>
+                            </Col>
                         </Row>
                     </Col>
-                    <Col id ="skill-desc">
-                        <p>
-                            <span className ="skill-desc-header">
-                                Multi-Faceted,
-                                <br/>
-                                Technical,
-                                <br/>
-                                Creative.
-                            </span>
-
-                            <br/>
-                            <br/>
-                            <span className = "skill-desc-body">
-
-                                My creations  are an extension of me.
-
-                                <br/>
-                                <br/>
-                                I strive to deliver strong products that are 
-                                <span className = "red-highlight"> useful </span>and 
-                                <span className ="green-highlight"> unique</span>.
-                            </span>
-                        </p>
-
-                    </Col>
-
                 </Row>
 
 

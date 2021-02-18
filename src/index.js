@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import Portfolio from './app/portfolio';
 import Experience from './components/experience/Experience';
+import FirstLightEnergyDesc from './components/experience/first-light-energy/FirstLightEnergyDesc';
 import reportWebVitals from './reportWebVitals';
 import ExternalImport from './app/externalimport';
 import { BrowserRouter, Route, Switch } from "react-router-dom";
@@ -13,7 +14,7 @@ ReactDOM.render(
     <BrowserRouter>
     <Switch>
       <Route exact path = "/" component ={Portfolio}></Route>
-      <Route exact path = "/experience" component ={Experience}></Route>
+      <Route exact path = "/experience/firstLightEnergy" component ={FirstLightEnergyDesc}></Route>
     </Switch>
     
     </BrowserRouter>

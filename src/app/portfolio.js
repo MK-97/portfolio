@@ -30,11 +30,6 @@ function Portfolio() {
         </Row>
         <Row>
           <Col>
-            <Resume/>
-          </Col>
-        </Row>
-        <Row>
-          <Col>
             <ContactMe/>
           </Col>
         </Row>

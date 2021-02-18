@@ -37,6 +37,11 @@
     font-size: 1.5em;
 }
 
+.exp-header{
+    margin-bottom: 7%;
+
+}
+
 @media only screen and (max-width: 900px){
     .exp-card{
         flex-direction: column;
